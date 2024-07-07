@@ -1,0 +1,119 @@
+def print_large_heading(text):
+    print("\n" + "#" * 40)
+    print("#" + text.center(38) + "#")
+    print("#" * 40 + "\n")
+
+# Usage:
+print_large_heading("AI Ethics Stimulator")
+print()
+print()
+
+def print_underlined_heading(text):
+    underline = "#" * len(text)
+    print(text)
+    print(underline)
+
+# Usage:
+print_underlined_heading("An Investment Strategy Dilemma")
+print()
+print()
+
+print("\nScenario: An investor is looking for guidance on investment strategy that will give good returns.") 
+print()
+print()
+Inva=float(input("Enter the amount you wish to invest in rupees: "))
+th=float(input("Enter your time horizon(0.5 years/2 years/5 years) : "))
+ra=input("Enter your risk appetite (High/Moderate/Low) : ")
+ror=float(input("Enter your expected ROR : "))
+fg=input("Enter your financial goals (Childen/Retirement/Medical/Family/Business/other): ")
+print()
+print()
+print("The AI model asks some key information from the investor like investment amount,financial goals, time horizon, risk appetite, expected ROR etc") 
+print("The customer indicates that he wants high returns in a short period of time") 
+print("The AI model offers three options:") 
+print()
+print("1. Invest in Crypto currencies, Currency trading, Options and Futures, Unorganized lending institutions") 
+print()
+print("2. Invest in high demand sector stocks : Beverages, Gaming , Weapons, Chemical and fertilizers") 
+print()
+print("3. Invest in large cap and social sector stocks : R&D, PSUs, Agriculture, Waste Management, Renewable Energy, Automobile, Space Research") 
+print()
+print("\nAs the AI ethics engineer, what decision do you program the model to give right strategy for the customer?") 
+
+choice = input("Enter your choice (1, 2, or 3): ")
+
+if choice == "1":
+    print()
+    print()
+    print()
+    print("\nOutcome: The customer invests in Crypto currencies")
+    print()
+    print("Result: The customer earns a huge amount of returns initially and keeps investing more and more money. Slowly the market started crashing and the investor loses all of his hard-earned wealth.")
+    print()
+    print("Ethical considerations:")
+    print()
+    print("1) Is Crypto currency framework governed?")
+    print("2) Is investor protected by legal framework?")
+    print("3) Is high returns really possible or just a trap?")
+    print("4) Is cryptocurrency valid considering that there is no real asset or any kind of production associated with the money")
+    print()
+elif choice == "2":
+    print()
+    print()
+    print()
+    print("\nOutcome: The customer invests in high demand industry stocks")
+    print()
+    print("Result: The customer gets very high rate of return and keeps making more profits by investing more over the period of time")
+    print()
+    print("Ethical considerations:")
+    print()
+    print("1) Are these companies involved in unethical or moral practices like gambling, corruption, money laundering, promoting smoking/tobacco consumption, producing firearms")
+    print("2) Are these companies impacting global climate changes in terms of carbon emission, pollution, waste dumping, excessive natural resource consumption, global warming")
+    print("3) Do these companies follow good practices like fair treatment to the employees, diversity policies, community contributions, social welfare, nation building, environment-friendly policies and practices")
+    print()
+elif choice == "3":
+    print()
+    print()
+    print()
+    print("\nOutcome: The customer invests in large cap and socially engaged company stocks")
+    print()
+    print("Result: The customer gets a moderate rate of return in the short term but good returns on a long-term basis")
+    print()
+    print("Ethical considerations:")
+    print()
+    print("1) These companies are very much socially engaged by doing community work like tree plantation, public place cleaning projects, education sponsorships, free healthcare centers, startup/venture platforms")
+    print("2) These companies follow human-centric policies like minimal waste production, reducing carbon emission, upliftment of poor and needy, generating employment, use of renewable energy resources, preservation of natural resources like water, tree, forest")
+    print("3) These companies invest a lot in research and development that will make human life sustainable and better like space research, agriculture technology, waste management, recycling of non-biodegradable things, preventive health diagnosis and cure, easy access to education for rural areas, sustainable urban development, improve living conditions for all")
+    print()
+else:
+    print()
+    print()
+    print()
+    print("Invalid input. Please run the simulation again.")
+
+
+def print_large_heading(text):
+    print("\n" + "#" * 40)
+    print("#" + text.center(38) + "#")
+    print("#" * 40 + "\n")
+
+# Usage:
+print_large_heading("Reflection")
+
+print("I was guided by below principles when making my choice-")
+print()
+print()
+print("1) I don't want to get any personal benefit at the cost of society and overall human existence because my existence is not independent")
+print()
+print("2) I would rather have modest returns but invest in the sectors that are contributing to the society at large and hence making me part of that contribution")
+print()
+print("3) I always believe in long terms gains rather than short term")
+print()
+print("4) I always believe in growth and development which is inclusive and sustainable")
+print()
+print("5) In whatever I do, my priorities are in the order of World, Nation, Society, Family and myself.")
+print()
+print("6) I always believe in giving back to society through whatever means I can.")
+
+
+
